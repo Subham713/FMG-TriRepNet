@@ -1,6 +1,6 @@
 # TriRep-Net
 
-Code and demo video accompanying our manuscript submission (under review).
+Code and demo video accompanying our manuscript submission (under review).'
 
 ## Contents
 
