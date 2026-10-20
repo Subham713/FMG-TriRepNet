@@ -45,4 +45,4 @@ Only the transformer fusion layers and the classification head are updated (~90.
 
 ## Demo video
 
-The video shows the trained classifier recognising hand gestures (e.g. fist close, fist open, swipe left, swipe right) live from the wearable sensor. Open [`media/demo.mp4`](demo.mp4) to play it in the browser, or download it.
+The video shows the trained classifier recognising hand gestures live from the wearable sensor. Open [`media/demo.mp4`](demo.mp4) to play it in the browser, or download it.
