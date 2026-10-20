@@ -8,7 +8,7 @@ Code and demo video accompanying our manuscript submission (under review).
 |---|---|
 | [`trirep_net.py`](trirep_net.py) | TriRep-Net model: a residual CNN stem over STFT inputs and twin 1-D convolutional branches over raw/FFT inputs, fused by a shared transformer encoder with modality embeddings and modality dropout. `build_trirep_net()` returns the tuned configuration (`TUNED_C`). |
 | [`personalize_fusion_up.py`](personalize_fusion_up.py) | "Fusion-up" personalization: loads a trained checkpoint, freezes the low-level feature extractors (`stft_cnn`, `branch1`, `branch2`), and fine-tunes the fusion transformer and classification head on a small user-specific set. |
-| [`media/demo.mp4`](media/demo.mp4) | Real-time demonstration of gesture recognition with the wearable sensor (≈40 s, 1080p). |
+| [`media/demo.mp4`](demo.mp4) | Real-time demonstration of gesture recognition with the wearable sensor (≈40 s, 1080p). |
 
 ## Requirements
 
@@ -45,4 +45,4 @@ Only the transformer fusion layers and the classification head are updated (~90.
 
 ## Demo video
 
-The video shows the trained classifier recognising hand gestures (e.g. fist close, fist open, swipe left, swipe right) live from the wearable sensor. Open [`media/demo.mp4`](media/demo.mp4) to play it in the browser, or download it.
+The video shows the trained classifier recognising hand gestures (e.g. fist close, fist open, swipe left, swipe right) live from the wearable sensor. Open [`media/demo.mp4`](demo.mp4) to play it in the browser, or download it.
